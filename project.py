@@ -13,7 +13,10 @@ def divide(a, b):
 def subtract(a, b): return b - a  # BUG!
 def power(a, b): return a**b
 def modulo(a, b): return a % b
-def absolute(a): return abs(a)
+def absolute(a):
+    if not isinstance(a, (int, float)):
+        raise TypeError("Input must be a number")
+    return abs(a)
 def floor_divide(a, b): return a // b
 
 

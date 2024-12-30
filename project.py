@@ -8,6 +8,8 @@ def modulo(a, b): return a % b
 def absolute(a): return abs(a)
 
 if __name__ == "__main__":
+    print("Greeting:", greet(name))
+    print()
     print("Add:", add(2, 3))
     print("Multiply:", multiply(4, 5))
     print("Divide:", divide(10, 2))
@@ -19,3 +21,4 @@ if __name__ == "__main__":
     print("Multiply:", multiply(0, 5))
     print("Divide:", divide(10, 1))
     print("Absolute:", absolute(0))
+    print()

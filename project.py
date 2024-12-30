@@ -16,6 +16,8 @@ def modulo(a, b): return a % b
 def absolute(a): return abs(a)
 def floor_divide(a, b): return a // b
 
+
+
 if __name__ == "__main__":
     print("Greeting:", greet(name))
     print()

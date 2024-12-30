@@ -32,3 +32,7 @@ if __name__ == "__main__":
     print("Absolute:", absolute(0))
     print()
     print("Floor Divide:", floor_divide(10,3))
+    try:
+        print("Divide:", divide(10, 0))
+    except ZeroDivisionError as e:
+        print(e)

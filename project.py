@@ -1,5 +1,4 @@
-name = input("Enter your name: ")
-print("Greeting:", greet(name))
+def greet(name): return f"Greetings, {name}!"
 def add(a, b): return a + b
 def multiply(a, b): return a * b
 def divide(a, b): return a / b

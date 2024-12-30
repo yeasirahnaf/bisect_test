@@ -38,3 +38,4 @@ if __name__ == "__main__":
         print("Divide:", divide(10, 0))
     except ZeroDivisionError as e:
         print(e)
+    print("Floor Divide:", floor_divide(-10, 3))

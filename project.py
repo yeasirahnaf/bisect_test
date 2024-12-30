@@ -15,3 +15,7 @@ if __name__ == "__main__":
     print("Power:", power(2, 3))
     print("Modulo:", modulo(7, 3))
     print("Absolute:", absolute(-5))
+    print("Add:", add(-2, 3))
+    print("Multiply:", multiply(0, 5))
+    print("Divide:", divide(10, 1))
+    print("Absolute:", absolute(0))

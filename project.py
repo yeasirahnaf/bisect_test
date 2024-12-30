@@ -6,6 +6,7 @@ def subtract(a, b): return a - b
 def power(a, b): return a**b
 def modulo(a, b): return a % b
 def absolute(a): return abs(a)
+def floor_divide(a, b): return a // b
 
 if __name__ == "__main__":
     print("Greeting:", greet(name))
@@ -22,3 +23,4 @@ if __name__ == "__main__":
     print("Divide:", divide(10, 1))
     print("Absolute:", absolute(0))
     print()
+    print("Floor Divide:", floor_divide(10,3))

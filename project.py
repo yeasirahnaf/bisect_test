@@ -10,7 +10,7 @@ def divide(a, b):
     if b == 0:
         raise ZeroDivisionError("Cannot divide by zero") #Raise error
     return a / b
-def subtract(a, b): return a - b
+def subtract(a, b): return b - a  # BUG!
 def power(a, b): return a**b
 def modulo(a, b): return a % b
 def absolute(a): return abs(a)

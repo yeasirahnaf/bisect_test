@@ -1,4 +1,6 @@
-def greet(name): return f"Greetings, {name}!"
+def greet(name):
+    """Greets a person by name."""
+    return f"Greetings, {name}!"
 def add(a, b):
     if not isinstance(a, (int, float)) or not isinstance(b, (int, float)):
         raise TypeError("Inputs must be numbers")
